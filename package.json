@@ -1,0 +1,30 @@
+{
+  "name": "starc-admin-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@elegant-router/vue": "^0.3.8",
+    "@vitejs/plugin-vue-jsx": "^5.1.5",
+    "dayjs": "^1.11.20",
+    "naive-ui": "^2.44.1",
+    "nprogress": "^0.2.0",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.32",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.2",
+    "@types/nprogress": "^0.2.3",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.4",
+    "vue-tsc": "^3.2.6"
+  }
+}
